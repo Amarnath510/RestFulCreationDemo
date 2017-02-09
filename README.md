@@ -155,7 +155,7 @@
 ## Run
   - Right click on project -> Run as -> Run on Server -> Select Tomcat.
 
-## Testing
+## Testing  (We can also test by calling RESTFul methods from Java. Refer [here for the tutorial](https://github.com/Amarnath510/RestFulConsumingDemo).)
   - Open Postman.
   - Select "POST" from drop down.
 
