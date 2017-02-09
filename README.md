@@ -15,7 +15,7 @@
   In this post we will create resources about GET, POST, PUT, DELETE.
 
 ## Project Structure
- 	![Project Structure]()
+ 	![Project Structure](https://github.com/Amarnath510/RestFulCreationDemo/blob/master/RestFulCreationDemo.png)
 
 ## Project Setup
   - Eclipse -> File -> New -> Dynamic Web Project -> Next -> Check "Generate web.xml deployment descriptor" -> Finish.
@@ -163,11 +163,11 @@
     - Give URL as "http://localhost:8081/RestFulDemo/employee/save".
     - We have to pass params to add an Employee. So click on Body. Select "x-www-form-unlencoded" and give three parameters.
   	- Make sure you give the same name as the attributes.
-  		id 			1
+  		id 		1
   		fName 		Amarnath
   		lName 		Chandana
-    - Finally Click on send. If the Employee is added successfully then you will see result as, "<h1> Employee Added. </h1>".
-    - If an Employee is already present with the same id then "<h1> Employee Already Present. </h1>"
+    - Finally Click on send. If the Employee is added successfully then you will see result as, `Employee Added.`.
+    - If an Employee is already present with the same id then `Employee Already Present.`
 
   - Get All Employees <br />
     - Give URL as "http://localhost:8081/RestFulDemo/employee/all".
@@ -187,4 +187,8 @@
   - DELETE <br />
   	- Give URL as "http://localhost:8081/RestFulDemo/employee/delete/5". We are requesting to delete Employee with id as 5.
   	- Choose DELETE as method type.
-  	- After clicking send, if the call is success then the output will be "<h1> Employee 5 Deleted </h1>" else if the id is not present then "<h1> Employee Deletion Failed. </h1>".
+  	- After clicking send, if the call is success then the output will be `Employee 5 Deleted.` else if the id is not present then `Employee Deletion Failed.`.
+	
+	
+## Reference:
+  - [RESTFul Web Services](https://www.tutorialspoint.com/restful/restful_methods.htm)
