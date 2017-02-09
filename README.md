@@ -57,7 +57,7 @@
   - @Produces - The @Produces annotation is used to specify the MIME media types or representations a resource can produce and send back to the client.
   - @Consumes - The @Consumes annotation is used to specify which MIME media types of representations a resource can accept, or consume, from the client.
 
-## Returns types of RESTful resources.
+## Returns types of RESTful resources
   - JSON - @Produces(MediaType.APPLICATION_JSON)
   - XML  - @Produces(MediaType.TEXT_XML)
   - HTML - @Produces(MediaType.TEXT_HTML)
@@ -152,7 +152,7 @@
 	}
     ```
 
-## Run:
+## Run
   - Right click on project -> Run as -> Run on Server -> Select Tomcat.
 
 ## Testing
@@ -190,5 +190,5 @@
   	- After clicking send, if the call is success then the output will be `Employee 5 Deleted.` else if the id is not present then `Employee Deletion Failed.`.
 	
 	
-## Reference:
+## Reference
   - [RESTFul Web Services](https://www.tutorialspoint.com/restful/restful_methods.htm)
