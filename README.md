@@ -15,7 +15,7 @@
   In this post we will create resources about GET, POST, PUT, DELETE.
 
 ## Project Structure
- 	![Project Structure](https://github.com/Amarnath510/RestFulCreationDemo/blob/master/RestFulCreationDemo.png)
+![Project Structure](https://github.com/Amarnath510/RestFulCreationDemo/blob/master/RestFulCreationDemo.png)
 
 ## Project Setup
   - Eclipse -> File -> New -> Dynamic Web Project -> Next -> Check "Generate web.xml deployment descriptor" -> Finish.
