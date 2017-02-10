@@ -162,10 +162,10 @@
   - Add Employee <br />
     - Give URL as "http://localhost:8081/RestFulDemo/employee/save".
     - We have to pass params to add an Employee. So click on Body. Select "x-www-form-unlencoded" and give three parameters.
-  	- Make sure you give the same name as the attributes.
-  		id 		1
-  		fName 		Amarnath
-  		lName 		Chandana
+  	- Make sure you give the same name as the attributes. <br />
+  		id 		1	   <br />
+  		fName 		Amarnath   <br />
+  		lName 		Chandana   <br />
     - Finally Click on send. If the Employee is added successfully then you will see result as, `Employee Added.`.
     - If an Employee is already present with the same id then `Employee Already Present.`
 
